@@ -1,0 +1,434 @@
+
+
+
+.ProjectsMain{
+    display: flex;
+    background-color: rgb(251, 242, 229);
+}
+
+
+.left{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;   
+    width: 20vw;    
+    
+    align-items:center ;
+}
+
+
+
+.img{
+    background-color: rgb(63, 63, 63);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+
+
+.img-about{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 8px solid #ffffff;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.4);
+    margin: 30px; 
+}
+
+.nav-bar{
+    background-color: #fdbb00;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    padding: 30px;
+}
+
+.social-icons{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: stretch;
+  font-family: 'Anton', sans-serif;
+  list-style: none;
+  height: 100%; 
+  align-items: flex-end;
+  padding: 0;
+  margin: 0;
+    gap: 20px;
+}
+
+
+
+.social-icons li a {
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.social-icons li a:hover {
+  color: #FFD700; /* Highlight color */
+  transform: scale(1.2);
+}
+
+
+.left {
+  width: 18%;
+  
+  
+}
+
+.right {
+  width: 10%;
+  
+  
+}
+
+
+
+.left-ul li:hover {
+  font-size: 40px; 
+  transition: font-size 0.3s ease;
+}
+
+
+.ProjectsCentre{
+    width: 72%;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+
+
+
+.container {
+  padding: 40px;
+  
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.sectionTitle {
+  text-align: center;
+  font-size: 36px;
+  margin: 40px 0 20px;
+  color: #222;
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+
+.project {
+  margin-bottom: 30px;
+
+}
+
+.projectTitle {
+  font-size: 22px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 5px;
+}
+
+
+
+.projectsSection {
+  padding: 2rem;
+ background-color: rgb(251, 242, 229);
+}
+
+.title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.carousel {
+  display: flex;
+  gap: 1.5rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 1rem;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 1rem;
+  min-width: 300px;
+  max-width: 320px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+.cardTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  font-size: 0.95rem;
+  color: #333;
+  margin-bottom: 0.75rem;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 0.75rem;
+}
+
+.tag {
+  background-color: #e6e6fa;
+  color: #333;
+  padding: 4px 8px;
+  border-radius: 8px;
+  font-size: 0.75rem;
+}
+
+.links {
+  margin-top: auto;
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.links a {
+  font-size: 0.85rem;
+  color: #3b82f6;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+
+.ProjectsMain {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Inter", sans-serif;
+}
+
+
+
+
+.projectsSection {
+  width: 80%;
+  padding: 2rem;
+  overflow-y: auto;
+}
+
+
+.right {
+  width: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1.5rem;
+}
+
+
+.left-ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: stretch;
+  color: white;
+  font-family: 'Anton', sans-serif;
+  font-size: 25px;
+  list-style: none;
+  height: 100%; 
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.left-ul li:nth-child(3) a {
+  color: black !important;
+}
+
+.left-ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.title {
+  font-size: 40px;
+  letter-spacing: 5px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  font-family: 'anton',sans-serif;
+  display: block; /* ensures it spans full width */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* Existing CSS remains the same until the end */
+
+/* Tablet Responsiveness (768px - 1024px) */
+@media (max-width: 1024px) {
+  .ProjectsMain {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .left {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .img {
+    width: auto;
+  }
+
+  .img-about {
+    height: 150px;
+    width: 150px;
+    margin: 15px;
+  }
+
+  .nav-bar {
+    display: flex;
+    height: auto;
+    align-items: center;
+  }
+
+  .left-ul {
+    flex-direction: row;
+    gap: 20px;
+    padding: 15px;
+    justify-content: center;
+  }
+
+  .left-ul li {
+    font-size: 20px;
+  }
+
+  .projectsSection {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .ProjectsCentre {
+    width: 100%;
+  }
+
+  .carousel {
+    justify-content: flex-start;
+  }
+
+  .card {
+    min-width: 250px;
+  }
+}
+
+/* Mobile Responsiveness (up to 767px) */
+@media (max-width: 767px) {
+  .left {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img-about {
+    height: 120px;
+    width: 120px;
+    margin: 10px;
+    border-width: 4px;
+  }
+
+  .left-ul {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .left-ul li {
+    font-size: 18px;
+  }
+
+  .sectionTitle, .title {
+    font-size: 28px;
+  }
+
+  .projectTitle {
+    font-size: 18px;
+  }
+
+  .container {
+    padding: 20px;
+  }
+
+  .card {
+    min-width: 85%;
+  }
+
+  /* Next Button Styles */
+  .next-button {
+    display: block;
+    margin: 30px auto;
+    padding: 12px 25px;
+    background-color: #fdbb00;
+    color: black;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 200px;
+  }
+
+  .next-button:hover {
+    background-color: #FFD700;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+}
+
+/* For larger screens, hide the next button by default */
+.next-button {
+  display: none;
+}
+
+/* Show next button only on mobile */
+@media (max-width: 767px) {
+  .next-button {
+    display: block;
+  }
+}

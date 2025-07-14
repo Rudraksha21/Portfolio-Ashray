@@ -1,0 +1,265 @@
+.ContactMain{
+    display: flex;
+    background-color: rgb(251, 242, 229);
+}
+
+
+.left{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;   
+    width: 20vw;    
+    
+    align-items:center ;
+}
+
+.img{
+    background-color: rgb(63, 63, 63);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.img-about{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 8px solid #ffffff;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.4);
+    margin: 30px; 
+}
+.nav-bar{
+    background-color: #fdbb00;
+    width: 100%;
+    height: 100%;
+}
+
+.left-ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: stretch;
+  color: white;
+  font-family: 'Anton', sans-serif;
+  font-size: 25px;
+  list-style: none;
+  height: 100%; 
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.left-ul li:nth-child(2){
+    color: black;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    padding: 30px;
+}
+
+.social-icons{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: stretch;
+  font-family: 'Anton', sans-serif;
+  list-style: none;
+  height: 100%; 
+  align-items: flex-end;
+  padding: 0;
+  margin: 0;
+    gap: 20px;
+}
+
+
+
+.social-icons li a {
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.social-icons li a:hover {
+  color: #FFD700; /* Highlight color */
+  transform: scale(1.2);
+}
+
+
+.left {
+  width: 18%;
+  
+  
+}
+
+.right {
+  width: 10%;
+  
+  
+}
+
+
+.Centre{
+  
+  width: 72%;
+  display: flex;
+  flex-direction: column;
+}
+
+.left-ul li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.left-ul li:nth-child(4) a {
+  color: rgb(0, 0, 0);
+}
+
+.ContactMain{
+    width: 100%;
+}
+
+
+
+/* Existing CSS remains the same until the end */
+
+/* Tablet Responsiveness (768px - 1024px) */
+@media (max-width: 1024px) {
+  .ContactMain {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .left {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .img {
+    width: auto;
+  }
+
+  .img-about {
+    height: 150px;
+    width: 150px;
+    margin: 15px;
+  }
+
+  .nav-bar {
+    display: flex;
+    height: auto;
+    align-items: center;
+  }
+
+  .left-ul {
+    flex-direction: row;
+    gap: 20px;
+    padding: 15px;
+    justify-content: center;
+  }
+
+  .left-ul li {
+    font-size: 20px;
+  }
+
+  .Centre {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  .contact-info {
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+}
+
+/* Mobile Responsiveness (up to 767px) */
+@media (max-width: 767px) {
+  .left {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img-about {
+    height: 120px;
+    width: 120px;
+    margin: 10px;
+    border-width: 4px;
+  }
+
+  .left-ul {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .left-ul li {
+    font-size: 18px;
+  }
+
+  .contact-container {
+    padding: 1.5rem;
+  }
+
+  .contact-info h2 {
+    font-size: 2rem;
+  }
+
+  .contact-form {
+    padding: 1.5rem;
+  }
+
+  /* Back Button Styles */
+  .back-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #fdbb00;
+    color: black;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 200px;
+  }
+
+  .back-button:hover {
+    background-color: #FFD700;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+}
+
+/* For larger screens, hide the back button by default */
+.back-button {
+  display: none;
+}
+
+/* Show back button only on mobile */
+@media (max-width: 767px) {
+  .back-button {
+    display: block;
+  }
+}
