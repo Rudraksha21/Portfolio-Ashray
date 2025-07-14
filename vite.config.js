@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/Portfolio-Ashray/', // Replace with your GitHub repository name
+  base: '/Portfolio-Ashray/', // Your GitHub repository name
 })
